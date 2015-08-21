@@ -102,17 +102,17 @@ lin
   minus_AdV = mkAdV ("-") ;
   neutral_AdV = mkAdV ("±");
   
-  down_AdV = mkAdV ("(down)");
-  up_AdV = mkAdV ("(up)");
-  neither_AdV = mkAdV ("(neither)");
+  down_AdV = mkAdV ("↓");
+  up_AdV = mkAdV ("↑");
+  neither_AdV = mkAdV ("○");
   
-  down_adv = mkAdv ("(down)") ;
-  up_adv = mkAdv ("(up)");
-  neither_adv = mkAdv ("(neither)");
+  down_adv = mkAdv ("↓") ;
+  up_adv = mkAdv ("↑");
+  neither_adv = mkAdv ("○");
   
-  up_A = mkA "(up)";
-  down_A = mkA "(down)";
-  neither_A = mkA "(neither)";
+  up_A = mkA "↑";
+  down_A = mkA "↓";
+  neither_A = mkA "○";
   
  -- oper
  --   plusVV : V -> VV = \v -> mkVV (partV v "+") ;
